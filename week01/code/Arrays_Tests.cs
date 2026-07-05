@@ -54,7 +54,7 @@ public class RotateListRightTests
         CollectionAssert.AreEqual(new List<int> { 7, 8, 9, 1, 2, 3, 4, 5, 6 }, numbers);
     }
 
-    [TestMethod]
+    [TestMethod] 
     public void TestRotateListRight_Rotate9()
     {
         List<int> numbers = new() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };

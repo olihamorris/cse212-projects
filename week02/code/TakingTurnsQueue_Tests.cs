@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 // TODO Problem 1 - Run test cases and record any defects the test code finds in the comment above the test method.
-// DO NOT MODIFY THE CODE IN THE TESTS in this file, just the comments above the tests. 
+// DO NOT MODIFY THE CODE IN THE TESTS in this file, just the comments above the tests.  
 // Fix the code being tested to match requirements and make all tests pass. 
 
 [TestClass]
@@ -11,8 +11,8 @@ public class TakingTurnsQueueTests
     // Scenario: Create a queue with the following people and turns: Bob (2), Tim (5), Sue (3) and
     // run until the queue is empty
     // Expected Result: Bob, Tim, Sue, Bob, Tim, Sue, Tim, Sue, Tim, Tim
-    // Defect(s) Found: 
-    public void TestTakingTurnsQueue_FiniteRepetition()
+    // Defect(s) Found: People were  added contrary to FIFO order. They were added to the front instead of the back.   
+public void TestTakingTurnsQueue_FiniteRepetition()
     {
         var bob = new Person("Bob", 2);
         var tim = new Person("Tim", 5);
