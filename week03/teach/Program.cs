@@ -2,7 +2,7 @@
 UniqueLetters.Run();
 
 Console.WriteLine("\n======================\nDisplay Sums\n======================");
-DisplaySums.Run();
+// DisplaySums.Run();
 
 Console.WriteLine("\n======================\nBasketball\n======================");
 Basketball.Run();
